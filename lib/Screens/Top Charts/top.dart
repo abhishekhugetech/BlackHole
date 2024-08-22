@@ -80,7 +80,7 @@ class _TopChartsState extends State<TopCharts>
                 child: Text(
                   AppLocalizations.of(context)!.top,
                   style: TextStyle(
-                    color: Theme.of(context).textTheme.bodyText1!.color,
+                    color: Theme.of(context).textTheme.bodyMedium!.color,
                   ),
                 ),
               ),
@@ -88,7 +88,7 @@ class _TopChartsState extends State<TopCharts>
                 child: Text(
                   AppLocalizations.of(context)!.viral,
                   style: TextStyle(
-                    color: Theme.of(context).textTheme.bodyText1!.color,
+                    color: Theme.of(context).textTheme.bodyMedium!.color,
                   ),
                 ),
               ),
@@ -98,7 +98,7 @@ class _TopChartsState extends State<TopCharts>
             AppLocalizations.of(context)!.spotifyCharts,
             style: TextStyle(
               fontSize: 18,
-              color: Theme.of(context).textTheme.bodyText1!.color,
+              color: Theme.of(context).textTheme.bodyMedium!.color,
             ),
           ),
           centerTitle: true,

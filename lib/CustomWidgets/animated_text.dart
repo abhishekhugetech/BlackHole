@@ -18,7 +18,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:marquee/marquee.dart' as wrapped;
+// import 'package:marquee/marquee.dart' as wrapped;
 
 class AnimatedText extends StatelessWidget {
   final String text;
@@ -89,28 +89,28 @@ class AnimatedText extends StatelessWidget {
           return SizedBox(
             height: tp.height,
             width: constraints.maxWidth,
-            child: wrapped.Marquee(
-              text: '  $text${" " * 30}',
-              style: style,
-              textScaleFactor: textScaleFactor,
-              textDirection: textDirection,
-              scrollAxis: scrollAxis,
-              crossAxisAlignment: crossAxisAlignment,
-              blankSpace: blankSpace,
-              velocity: velocity,
-              startAfter: startAfter,
-              pauseAfterRound: pauseAfterRound,
-              numberOfRounds: numberOfRounds,
-              showFadingOnlyWhenScrolling: showFadingOnlyWhenScrolling,
-              fadingEdgeStartFraction: fadingEdgeStartFraction,
-              fadingEdgeEndFraction: fadingEdgeEndFraction,
-              startPadding: startPadding,
-              accelerationDuration: accelerationDuration,
-              accelerationCurve: accelerationCurve,
-              decelerationDuration: decelerationDuration,
-              decelerationCurve: decelerationCurve,
-              onDone: onDone,
-            ),
+            // child: wrapped.Marquee(
+            //   text: '  $text${" " * 30}',
+            //   style: style,
+            //   textScaleFactor: textScaleFactor,
+            //   textDirection: textDirection,
+            //   scrollAxis: scrollAxis,
+            //   crossAxisAlignment: crossAxisAlignment,
+            //   blankSpace: blankSpace,
+            //   velocity: velocity,
+            //   startAfter: startAfter,
+            //   pauseAfterRound: pauseAfterRound,
+            //   numberOfRounds: numberOfRounds,
+            //   showFadingOnlyWhenScrolling: showFadingOnlyWhenScrolling,
+            //   fadingEdgeStartFraction: fadingEdgeStartFraction,
+            //   fadingEdgeEndFraction: fadingEdgeEndFraction,
+            //   startPadding: startPadding,
+            //   accelerationDuration: accelerationDuration,
+            //   accelerationCurve: accelerationCurve,
+            //   decelerationDuration: decelerationDuration,
+            //   decelerationCurve: decelerationCurve,
+            //   onDone: onDone,
+            // ),
           );
         } else {
           return SizedBox(
